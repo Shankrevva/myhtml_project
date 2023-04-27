@@ -5,4 +5,4 @@ FROM httpd:latest
 MAINTAINER "inamatipooja1998@gmail.com"
 
 # copying the brighton application file from the source directory to destination HTTPD container directory
-COPY ./brighton-html/* /usr/local/apache2/htdocs/
+COPY ./brighton-html/ /usr/local/apache2/htdocs/
